@@ -124,7 +124,7 @@
                                                 <?php $val_category = $category->db_get_list_by_id($value['cate_id']); ?>
                                               <label for="category">Select main category:</label>
                                               <select name="category" id="" class="form-control" onchange="getSubcategory(this.value);">
-                                                  <option value="<?php echo $value['id']; ?>"><?php echo $val_category['name']; ?></option>
+                                                  <option hidden value="<?php echo $value['id']; ?>"><?php echo $val_category['name']; ?></option>
                                                   <?php foreach ($list_category as $cate_value) { ?>
                                                     <option value="<?php echo $cate_value['id']; ?>"><?php echo $cate_value['name']; ?></option>
                                                   <?php } ?>
@@ -136,7 +136,7 @@
                                                 <?php $val_subcategory = $subcategory->db_get_list_by_id($value['subcate_id']); ?>
                                               <label for="sub-category">Select sub category:</label>
                                               <select name="sub-category" id="subcategory" class="form-control">
-                                                  <option value="<?php echo $val_subcategory['id']; ?>"><?php echo $val_subcategory['name']; ?></option>
+                                                  <option hidden value="<?php echo $val_subcategory['id']; ?>"><?php echo $val_subcategory['name']; ?></option>
                                               </select>
                                             </div>
                                         </div>

@@ -63,7 +63,7 @@ if (isset($_GET['id'])) {
                                             <td><?php echo $stt; ?></td>
                                             <td><?php echo $row['fullname']; ?></td>
                                             <td><?php echo $row['username']; ?></td>
-                                            <td><img class="img-thumbnail" style="width: 120px; height: 120px;" src="../Public/uploads/users/<?php echo $row['image']; ?>" alt="Product's image" sizes="50x50" srcset=""></td>
+                                            <td><img class="img-thumbnail" style="width: 80px; height: 80px;" src="../Public/uploads/users/<?php echo $row['image']; ?>" alt="Product's image" sizes="50x50" srcset=""></td>
                                             <td><?php echo $type = ($row['type'] == 1) ? "Administrator" : "Guest"; ?></td>
                                             <td><?php echo date("m/d/Y - H:i:s",strtotime($row['date_created'])); ?></td>
                                             <td><?php echo date("m/d/Y - H:i:s",strtotime($row['date_updated'])); ?></td>

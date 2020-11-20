@@ -87,7 +87,7 @@ if (isset($_GET['id'])) {
                                             <td><?php echo $stt; ?></td>
                                             <td><?php echo $row['name']; ?></td>
                                             <td><?php echo $row['subcate_name']; ?></td>
-                                            <td><img class="img-thumbnail" style="width: 120px; height: 120px;" src="../Public/uploads/<?php echo $row['image']; ?>" alt="Product's image" sizes="50x50" srcset=""></td>
+                                            <td><img class="img-thumbnail" style="width: 80px; height: 80px;" src="../Public/uploads/<?php echo $row['image']; ?>" alt="Product's image" sizes="50x50" srcset=""></td>
                                             <td><?php echo $row['in_stock']; ?></td>
                                             <td><?php echo number_format($row['price']); ?> VND</td>
                                             <td><?php echo date("m/d/Y - H:i:s",strtotime($row['date_created'])); ?></td>
