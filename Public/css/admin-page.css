@@ -1,0 +1,175 @@
+.admin-page--img {
+    display: block;
+    margin: auto;
+   width: 80%;
+   background-size:100%;
+   background-repeat: repeat-y;
+   background-attachment: fixed;
+   }
+   .admin__work-space {
+    padding-top: 30px;
+   }
+   .admin__category {
+       background-color: #333;
+       min-height:100vh;
+       color: white;
+   }
+   .admin__category--heading {
+       border-bottom: 1px solid white;
+       padding: 20px 0;
+       margin: 0 20px;
+   }
+
+   .admin__category-list-item a {
+    list-style: none;
+   }
+   .admin__category-list-item a {
+       
+       color: #ccc7c7;
+       text-decoration: none;
+       font-size: 20px;
+       padding: 20px 20px 0px 20px;
+       display: block;
+       
+   }
+   .admin__category-list-item__active a{
+       color: white;
+   }
+   .admin__category-list-item a:hover {
+     color: white;
+   }
+   .admin__header {
+     display: flex;
+     justify-content: space-between;
+     height: 75px;
+     border-bottom: 1px solid #ccc;
+   }
+   .admin__heading {
+     line-height: 79px;
+     position: relative;
+   }
+   .admin__heading::before {
+     position: absolute;
+     bottom: -17%;
+     content: "";
+     display: block;
+     background-color: #333;
+     width: 100%;
+     height: 5px;
+     border-radius: 2px;
+   }
+   .admin-info-user a {
+     text-decoration: none;
+     color: #333333;
+     margin-left: 10px;
+   }
+   .admin-info-user a:hover {
+     filter: brightness(1.5);
+   }
+   .add-item__link {
+     color: white;
+     text-decoration: none;
+   }
+   .add-item__link:hover {
+     text-decoration: none;
+     filter: contrast(1);
+     color: white;
+   }
+   .admin__search-bar {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 30px;
+   }
+   /* form add item */
+   .form-add-item{
+       width: 600px;
+   }
+   .btn-wrapper {
+       margin-top: 30px;
+       display: flex;
+       justify-content: space-around;
+   }
+
+   /* panigation */
+   .panigation {
+     display: block;
+   }
+
+
+
+   /* login */
+
+
+   #login-wrapper {
+     background-image: url("../Images/admin/bg_login.jpg");
+     background-position: bottom;
+     height: 100vh;
+   }
+
+   #login-wrapper .btn-login {
+     background-color: #5b3693;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+     width: 200px;
+     height: 40px;
+     box-shadow: none;
+}
+#login-wrapper .btn-login:hover {
+  opacity: 0.9;
+}
+.login-form {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-box-shadow: 2px 11px 21px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 11px 21px 10px rgba(0,0,0,0.75);
+box-shadow: 2px 11px 21px 10px rgba(0,0,0,0.75);
+}
+
+/* slide bar */
+#accordionSidebar {
+  background-color: #5b3693 !important;
+  background-image: linear-gradient(180deg, #7748bd 90%,#871f99 100%);
+}
+
+#accordionSidebar span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.input-group-append button {
+  border: none;
+  background-color: #5b3693 !important;
+  background-image: linear-gradient(180deg, #7748bd 10%,#871f99 100%);
+}
+#content .btn-primary,#content .bg-primary {
+  border: none;
+  background-color: #5b3693 !important;
+  background-image: linear-gradient(180deg, #7748bd 10%,#871f99 100%);
+}
+
+#content .border-left-primary {
+  border-left:.25rem  solid  #7748bd !important;
+}
+#content .btn-success {
+  background-color:  #5b3693 ;
+    border-color:  #5b3693 ;
+}
+
+.statistical-order h6 {
+  color: #492c75 !important;
+  font-size: 20px;
+}
+#content h1,#content h3,#content .text-primary {
+  color: #492c75 !important;
+  font-weight: 800;
+}
+
+.sidebar-brand-text {
+  font-size: 30px;
+}
