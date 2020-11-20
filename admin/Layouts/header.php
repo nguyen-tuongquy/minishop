@@ -45,10 +45,6 @@ if (isset($_COOKIE['fullname']))
                         <i class="fas fa-user"></i> Update your profile
                             <!-- <span class="float-right text-muted text-sm">3 mins</span> -->
                         </a>
-                        <a href="#" class="dropdown-item">
-                        <i class="fas fa-key"></i> Update your password
-                            <!-- <span class="float-right text-muted text-sm">3 mins</span> -->
-                        </a>
                         <div class="dropdown-divider"></div>
                         <a href="./logout.php" class="dropdown-item">
                         <i class="fas fa-door-open"></i> Log out
